@@ -5,7 +5,6 @@ const ScanGrid = ({ csv }) => {
     if (!csv) {
         return null;
     }
-    console.log("renderizando")
 
     return (
         <Table stickyHeader>

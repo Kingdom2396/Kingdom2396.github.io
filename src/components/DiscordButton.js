@@ -3,7 +3,6 @@ import { Box, Typography } from '@mui/material';
 import { Castle } from '@mui/icons-material';
 
 const DiscordButton = () => {
-    console.log("botao")
     return (
         <>
             <Typography

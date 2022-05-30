@@ -91,7 +91,6 @@ function App() {
       fetch('scans/20220527.csv')
         .then(r => r.text())
         .then((text) => {
-          console.log("puxei")
           setState({...state, csv: parseCSV(text)})
         })
     }
@@ -100,8 +99,6 @@ function App() {
   const toggleDrawer = () => {
     setState({...state, open: !state.open});
   };
-
-  console.log("bora")
 
   return (
     <ThemeProvider theme={mdTheme}>
